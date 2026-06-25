@@ -1,0 +1,37 @@
+a)
+
+Verzeichnisse erstellen:
+mkdir 1 2
+
+b)
+
+Datei auf Rechner erstellen:
+echo "Hallo Rechnernetze" > test.txt
+
+Datei auf den Server kopieren:
+scp test.txt s4mamaie@2026s.ag-syssoft.org:~/1/
+
+c)
+
+Skript erstellen:
+nano script.sh
+(mit Inhalt füllen)
+
+Versuch, das Skript auszuführen:
+./script.sh
+
+d) 
+
+Berechtigung setzen:
+chmod 751 script.sh
+
+Skript ausführen:
+./script.sh
+
+
+s4mamaie@2026s-cn:~$  ls -l
+total 16
+drwxrwxr-x 2 s4mamaie s4mamaie 4096 Jun 25 19:19 1
+drwxrwxr-x 2 s4mamaie s4mamaie 4096 Jun 25 19:16 2
+-rwxr-x--x 1 s4mamaie s4mamaie   31 Jun 25 19:23 script.sh
+-rw-rw-r-- 1 s4mamaie s4mamaie   19 Jun 25 19:18 test.txt

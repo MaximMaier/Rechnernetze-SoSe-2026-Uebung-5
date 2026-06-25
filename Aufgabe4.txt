@@ -1,0 +1,5 @@
+Ins Home-Verzeichnis wechseln:
+cd ~
+
+Download:
+$ wget -O FPO2020.pdf https://ordnungen.uni-trier.de/FPO_BSc_1F-HF-NF_Informatik_2020-07-27.pdf

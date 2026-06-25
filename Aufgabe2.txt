@@ -1,0 +1,4 @@
+Es hat sich verändert, dass man beim Login kein Passwort mehr angeben muss. Alternativ kann man stattdessen nun eine passphrase angeben.
+Um beim Login den kein Passwort mehr zu nutzen, hab ich erstmal mit "ssh-keygen -t ed2551" ein Schlüsselpaar erzeugt. 
+Nun werden beim Login der öffentliche und der private Schlüssel genutzt.
+Das sorgt zum Teil auch für hohere Sicherheit, da nun kein Passwort mehr übertragen werden muss und die beiden Schlüssel normalerweise länger als ein übliches Passwort sind.
