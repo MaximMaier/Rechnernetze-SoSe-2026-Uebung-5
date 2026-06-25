@@ -1,0 +1,22 @@
+ssh -L 8080:localhost:3000 BENUTZERNAME@2026s.ag-syssoft.org
+
+Verbindung im Browser testen:
+http://localhost:8080
+
+Zu sehen ist:
+Willkommen zur SSH Tunneling Uebung
+
+Wenn du das siehst, funktioniert der Tunnel!
+Zur Info-Seite
+
+
+Ablauf
+Der Browser sendet eine Anfrage an:
+localhost:8080 auf deinem Rechner
+Der SSH-Client fängt diese Verbindung ab
+Die Anfrage wird verschlüsselt durch den SSH-Tunnel geleitet
+Auf dem Server wird die Anfrage weitergeleitet an:
+localhost:3000
+Der Webserver antwortet
+Antwort geht denselben Weg zurück:
+Server → SSH Tunnel → dein Rechner → Browser
